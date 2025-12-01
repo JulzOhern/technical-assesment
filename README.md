@@ -53,6 +53,10 @@ cd <project-folder>
 ```bash
 npm install
 ```
+Note: If you haven’t installed Chromium yet, run:
+```bash
+npx playwright install chromium
+```
 
 ## 🔑 Environment Variables
 
