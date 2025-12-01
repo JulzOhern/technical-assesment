@@ -1,6 +1,4 @@
-# Business Search Scraper API
-
-A Node.js + Express backend that scrapes business information from bizfileonline.sos.ca.gov using Playwright, Cheerio, and the Puppeteer Stealth plugin to bypass bot-detection systems.
+A Node.js + Express backend that scrapes bizfileonline.sos.ca.gov using Playwright, Cheerio, and the Puppeteer Stealth plugin to bypass bot-detection systems.
 
 This API accepts a search term, performs a real-time browser scrape, extracts business details, and exports the results to a CSV file.
 
