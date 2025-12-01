@@ -45,7 +45,7 @@ scraped-data.csv
 
 - Make sure you have Node.js (v18+) installed.
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/JulzOhern/technical-assesment.git
 ```
 ```bash
 cd <project-folder>
