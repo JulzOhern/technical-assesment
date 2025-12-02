@@ -49,7 +49,7 @@ export async function searchTerm(req: Request, res: Response) {
 
     await page.waitForSelector("input.search-input", { timeout: 10000 });
     await page.fill("input.search-input", term);
-    await page.click("button.search-button");
+    await page.keyboard.press("Enter");
     await page.waitForSelector(".div-table-cell.interactive");
 
     const html = await page.content();
