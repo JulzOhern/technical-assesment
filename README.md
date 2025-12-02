@@ -12,7 +12,7 @@ Download the sample scraped CSV output:
 
 ### **🎥 Screen Recording (Coding Process + Output Demo)**  
 Watch here:  
-👉 **[Screen recording]()**
+👉 **[Screen recording](https://drive.google.com/file/d/1JKd7IXIFgQZghTSB1ynSUTPMEmYEj3-r/view?usp=drive_link)**
 
 ## 🚀 Features
 
