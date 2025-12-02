@@ -2,36 +2,47 @@ A Node.js + Express backend that scrapes bizfileonline.sos.ca.gov using Playwrig
 
 This API accepts a search term, performs a real-time browser scrape, extracts business details, and exports the results to a CSV file.
 
+## 📎 Submission Deliverables
+
+The following files required for the technical assessment are included:
+
+### **📄 Sample Output CSV**
+Download the sample scraped CSV output:  
+👉 **[Sample output CSV](https://drive.google.com/file/d/19DuciJNZtF5Ft7SxfduMtmvUlfsPXBpn/view?usp=drive_link)**
+
+### **🎥 Screen Recording (Coding Process + Output Demo)**  
+Watch here:  
+👉 **[Screen recording]()**
+
 ## 🚀 Features
 
-- Scrapes live business data from BizFileOnline
 - Uses Playwright + Stealth plugin to avoid bot detection
 - Parses HTML using Cheerio
 - Supports up to 500 records
 - Automatically retries or skips invalid/missing records
 - Exports results to CSV
 - Returns JSON for API usage
-- Fast, lightweight, and fully automated
+- Reliable and fully automated scraping workflow
 
 ## 📁 Project Structure
 
 ```text
 /src
-/router
-index.ts
-/controllers
-searchTerm.ts
-/server.ts
+  /router
+    index.ts
+  /controllers
+    searchTerm.ts
+  server.ts
 package.json
 README.md
 /csv
-scraped-data.csv
+  scraped-data.csv
 ```
 
 ## 🔧 Tech Stack
 
 - Tool	Purpose
--Node.js	Runtime environment
+- Node.js	Runtime environment
 - Express.js	Backend routing & API
 - Playwright (chromium)	Headless browser automation
 - puppeteer-extra-plugin-stealth	Avoid bot-detection
